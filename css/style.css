@@ -7,5 +7,64 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #333;
+  color: #222;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+/* REUSABLE */
+
+.container {
+  width: 55%;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  background-color: #fff;
+
+  /* debug */
+  /* background-color: lightcoral; */
+}
+
+nav {
+  height: 100%;
+  padding: 0 20px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-list li {
+  display: flex;
+  align-items: center;
+}
+
+.bottom-border:hover {
+  box-shadow: inset 0px -2px 0px #2222229d;
+}
+
+.start-btn a {
+  color: #fff;
+  background-color: #0061ff;
+  padding: 6px 12px;
 }
