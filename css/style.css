@@ -36,11 +36,17 @@ nav {
 
 /* ----------------------------------- */
 /* HERO SECTION */
+
 .hero-section {
   background-color: #b4d0e7;
-  padding-top: 120px;
+  padding: 120px 0 20px 0;
   /* debug */
   min-height: 600px;
+}
+
+.hero-container {
+  width: 65%;
+  margin: 0 auto;
 }
 
 h1 {
@@ -78,13 +84,16 @@ h1 {
 }
 
 .hero-img img {
-  width: 100%;
+  position: absolute;
+  bottom: -100;
+  right: 0;
+  width: 800px;
 }
 
 /* PRICING SECTION */
 
 .pricing-section {
-  padding: 128px 0;
+  padding: 170px 0;
 }
 
 .fa-circle-dot {

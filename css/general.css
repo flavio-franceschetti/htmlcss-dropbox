@@ -75,6 +75,7 @@ a {
 }
 
 .row {
+  position: relative;
   display: flex;
   gap: 40px;
 }
