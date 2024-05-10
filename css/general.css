@@ -13,6 +13,7 @@
 - Secondary: #0061ff
 - Shade:     #3381ff
 - Text: #222
+        rgb(132, 132, 132)
 
 */
 
@@ -36,6 +37,11 @@ body {
 a {
   color: #222;
   text-decoration: none;
+}
+
+.fa-solid,
+.fa-regular {
+  margin-right: 4px;
 }
 
 /* REUSABLE */
@@ -67,5 +73,5 @@ a {
 
 .title-section {
   font-size: 36px;
-  margin-bottom: 48px;
+  margin-bottom: 64px;
 }

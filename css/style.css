@@ -71,6 +71,7 @@ h1 {
 }
 
 .fa-arrow-down {
+  margin: 0;
   display: block;
   font-size: 52px;
   color: #222;
@@ -112,4 +113,40 @@ h1 {
   text-align: center;
   padding: 10px 0;
   border-bottom: 1.8px solid lightgray;
+}
+
+.plan-content {
+  padding: 35px 30px;
+}
+
+.plan-title {
+  display: block;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.plan-price {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.plan-content span:nth-child(3) {
+  display: inline-block;
+  color: rgb(132, 132, 132);
+  margin-bottom: 48px;
+}
+
+.plan-feature {
+  list-style: none;
+  font-size: 14px;
+}
+
+.plan-feature li {
+  margin-bottom: 24px;
+}
+
+.fa-share-nodes {
+  height: 100%;
 }
