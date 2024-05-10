@@ -106,7 +106,7 @@ h1 {
   border: 1.8px solid lightgray;
   /* debug */
   /* background-color: lightblue; */
-  min-height: 400px;
+  min-height: 800px;
 }
 
 .plan-type {
@@ -141,6 +141,7 @@ h1 {
 .plan-feature {
   list-style: none;
   font-size: 14px;
+  margin-bottom: 48px;
 }
 
 .plan-feature li {
@@ -149,4 +150,24 @@ h1 {
 
 .fa-share-nodes {
   height: 100%;
+}
+
+.free-try-btn {
+  margin-bottom: 20px;
+}
+
+.free-try-btn a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 12px;
+}
+
+.buy-now {
+  margin-bottom: 48px;
+}
+
+.buy-now a {
+  color: #0061ff;
+  text-decoration: underline;
 }
