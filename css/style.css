@@ -102,7 +102,14 @@ h1 {
 /* card section */
 
 .card {
+  border: 1.8px solid lightgray;
   /* debug */
-  background-color: lightblue;
+  /* background-color: lightblue; */
   min-height: 400px;
+}
+
+.plan-type {
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1.8px solid lightgray;
 }
