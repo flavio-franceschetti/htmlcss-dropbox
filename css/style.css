@@ -39,6 +39,7 @@ nav {
 .hero-section {
   background-color: #b4d0e7;
   padding-top: 120px;
+  margin-bottom: 128px;
   /* debug */
   min-height: 600px;
 }
@@ -78,4 +79,22 @@ h1 {
 
 .hero-img img {
   width: 100%;
+}
+
+/* PRICING SECTION */
+
+.pricing-section {
+  margin-bottom: 128px;
+}
+
+.fa-circle-dot {
+  color: #0061ff;
+}
+
+.fa-circle {
+  color: #22222282;
+}
+
+.facturation-mode {
+  margin-right: 32px;
 }
