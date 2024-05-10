@@ -141,7 +141,8 @@ h1 {
 
 /* plan feature */
 .plan-feature {
-  margin-bottom: 48px;
+  min-height: 170px;
+  margin-bottom: 32px;
 }
 
 /* plan activate buttons */
