@@ -181,8 +181,11 @@ h1 {
   margin-bottom: 48px;
 }
 
-/* plan hilights */
+.last-card-btn {
+  display: inline-block;
+}
 
+/* plan hilights */
 .plan-hilights span:first-child {
   display: inline-block;
   font-weight: 600;
@@ -191,4 +194,23 @@ h1 {
 
 .fa-check {
   color: #0061ff;
+}
+
+/* last card */
+.last-card {
+  margin-top: 40px;
+}
+
+.content-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.content-text {
+  width: 70%;
+}
+
+.plan-price {
+  margin-bottom: 64px;
 }
