@@ -1,57 +1,4 @@
-/*
---- 01 TYPOGRAPHY SYSTEM
-
-- Font sizes (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-
-- Spacing system (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-
---- COLORS
-
-- Primary: #b4d0e7
-- Secondary: #0061ff
-- Text: #222
-
-*/
-
-/* GENERAL */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Open Sans", sans-serif;
-  color: #222;
-}
-
-a {
-  color: #222;
-  text-decoration: none;
-}
-
-/* REUSABLE */
-
-.container {
-  width: 55%;
-  margin: 0 auto;
-}
-
-.row {
-  display: flex;
-  gap: 20px;
-}
-
-.btn {
-  background-color: #0061ff;
-  color: #fff;
-  padding: 6px 12px;
-}
-
 /* HEADER */
-
 header {
   height: 70px;
   width: 100%;
@@ -87,8 +34,8 @@ nav {
   box-shadow: inset 0px -2px 0px #2222229d;
 }
 
+/* ----------------------------------- */
 /* HERO SECTION */
-
 .hero-section {
   background-color: #b4d0e7;
   padding-top: 120px;
@@ -120,7 +67,7 @@ h1 {
 .hero-content span {
   display: inline-block;
   font-weight: 300;
-  margin-bottom: 48px;
+  margin-bottom: 64px;
 }
 
 .fa-arrow-down {
