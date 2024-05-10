@@ -44,8 +44,31 @@ a {
   margin-right: 4px;
 }
 
-/* REUSABLE */
+/* CARD PLAN LIST GENERAL */
+.plan-list {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+  font-size: 14px;
+}
 
+.plan-list li {
+  position: relative;
+  margin-bottom: 24px;
+  padding-left: 20px;
+}
+
+.plan-list li:last-child {
+  margin-bottom: 0;
+}
+
+.plan-icon {
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+/* REUSABLE */
 .container {
   width: 55%;
   margin: 0 auto;
@@ -75,9 +98,4 @@ a {
 .title-section {
   font-size: 36px;
   margin-bottom: 64px;
-}
-
-.short-line {
-  border-top: 1px solid lightgray;
-  width: 20%;
 }

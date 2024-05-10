@@ -106,9 +106,10 @@ h1 {
   border: 1.8px solid lightgray;
   /* debug */
   /* background-color: lightblue; */
-  min-height: 800px;
+  /* min-height: 800px; */
 }
 
+/* plan type */
 .plan-type {
   text-align: center;
   padding: 10px 0;
@@ -138,20 +139,12 @@ h1 {
   margin-bottom: 48px;
 }
 
+/* plan feature */
 .plan-feature {
-  list-style: none;
-  font-size: 14px;
   margin-bottom: 48px;
 }
 
-.plan-feature li {
-  margin-bottom: 24px;
-}
-
-.fa-share-nodes {
-  height: 100%;
-}
-
+/* plan activate buttons */
 .free-try-btn {
   margin-bottom: 20px;
 }
@@ -164,10 +157,28 @@ h1 {
 }
 
 .buy-now {
-  margin-bottom: 48px;
+  margin-bottom: 32px;
 }
 
 .buy-now a {
   color: #0061ff;
   text-decoration: underline;
+}
+
+.short-line {
+  border-top: 1px solid lightgray;
+  width: 20%;
+  margin-bottom: 48px;
+}
+
+/* plan hilights */
+
+.plan-hilights span:first-child {
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.fa-check {
+  color: #0061ff;
 }
