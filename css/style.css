@@ -34,6 +34,7 @@ header {
   position: fixed;
   z-index: 999;
   background-color: #fff;
+  border-bottom: 1px solid #2222229d;
 
   /* debug */
   /* background-color: lightcoral; */
@@ -49,7 +50,6 @@ nav {
 
 .nav-list {
   list-style: none;
-  height: 100%;
   display: flex;
   gap: 30px;
 }
