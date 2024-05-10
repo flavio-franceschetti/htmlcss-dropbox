@@ -39,7 +39,6 @@ nav {
 .hero-section {
   background-color: #b4d0e7;
   padding-top: 120px;
-  margin-bottom: 128px;
   /* debug */
   min-height: 600px;
 }
@@ -84,7 +83,7 @@ h1 {
 /* PRICING SECTION */
 
 .pricing-section {
-  margin-bottom: 128px;
+  padding: 128px 0;
 }
 
 .fa-circle-dot {
