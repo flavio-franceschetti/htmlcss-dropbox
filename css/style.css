@@ -1,3 +1,20 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+--- COLORS
+
+- Primary: #b4d0e7
+- Secondary: #0061ff
+- Text: #222
+
+*/
+
 /* GENERAL */
 * {
   margin: 0;
@@ -15,15 +32,22 @@ a {
   text-decoration: none;
 }
 
-h1 {
-  font-size: 70px;
-}
-
 /* REUSABLE */
 
 .container {
   width: 55%;
   margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  background-color: #0061ff;
+  color: #fff;
+  padding: 6px 12px;
 }
 
 /* HEADER */
@@ -34,7 +58,7 @@ header {
   position: fixed;
   z-index: 999;
   background-color: #fff;
-  border-bottom: 1px solid #2222229d;
+  border-bottom: 1px solid #22222256;
 
   /* debug */
   /* background-color: lightcoral; */
@@ -63,8 +87,48 @@ nav {
   box-shadow: inset 0px -2px 0px #2222229d;
 }
 
-.start-btn a {
-  color: #fff;
-  background-color: #0061ff;
-  padding: 6px 12px;
+/* HERO SECTION */
+
+.hero-section {
+  background-color: #b4d0e7;
+  padding-top: 120px;
+  /* debug */
+  min-height: 600px;
+}
+
+h1 {
+  font-size: 74px;
+  margin-bottom: 64px;
+}
+
+/* hero content */
+
+.hero-content {
+  max-width: 350px;
+}
+
+.hero-content p {
+  margin-bottom: 24px;
+  font-weight: 300;
+}
+
+.hero-content .btn {
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+.hero-content span {
+  display: inline-block;
+  font-weight: 300;
+  margin-bottom: 48px;
+}
+
+.fa-arrow-down {
+  display: block;
+  font-size: 52px;
+  color: #222;
+}
+
+.hero-img img {
+  width: 100%;
 }
