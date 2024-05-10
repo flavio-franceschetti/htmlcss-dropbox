@@ -43,7 +43,11 @@ a {
 
 .row {
   display: flex;
-  gap: 20px;
+  gap: 40px;
+}
+
+.w-33 {
+  width: calc(100% / 3);
 }
 
 .btn {

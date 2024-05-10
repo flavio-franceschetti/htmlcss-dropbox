@@ -96,5 +96,14 @@ h1 {
 }
 
 .facturation-mode {
-  margin-right: 32px;
+  margin: 0 32px 32px 0;
+  display: inline-block;
+}
+
+/* card section */
+
+.card {
+  /* debug */
+  background-color: lightblue;
+  min-height: 400px;
 }
