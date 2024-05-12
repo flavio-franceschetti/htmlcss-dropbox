@@ -247,3 +247,11 @@ h1 {
 .feature-img {
   width: 100%;
 }
+
+/* TESTIMONIAL SECTION */
+.testimonial-section a {
+  display: inline-block;
+  color: #0061ff;
+  text-decoration: underline;
+  margin-bottom: 128px;
+}
