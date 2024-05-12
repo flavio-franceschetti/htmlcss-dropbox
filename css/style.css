@@ -233,3 +233,12 @@ h1 {
   color: #222;
   margin-top: 48px;
 }
+
+/* FEATURE SECTION */
+.feature-section {
+  padding-bottom: 170px;
+}
+
+.feature-img {
+  width: 100%;
+}
