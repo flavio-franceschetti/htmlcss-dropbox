@@ -207,3 +207,29 @@ h1 {
 .plan-price {
   margin-bottom: 64px;
 }
+
+/* FIND PARTNER SECTION */
+
+.find-partner-section {
+  padding-bottom: 170px;
+}
+
+.find-prtner-img {
+  width: 60%;
+}
+.find-prtner-img img {
+  width: 100%;
+}
+
+.find-partner-text {
+  width: 40%;
+  margin-top: 80px;
+}
+
+.find-partner-btn {
+  display: inline-block;
+  background: none;
+  border: 1px solid #222;
+  color: #222;
+  margin-top: 48px;
+}
