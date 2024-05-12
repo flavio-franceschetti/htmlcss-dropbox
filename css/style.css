@@ -215,7 +215,7 @@ h1 {
 }
 
 .find-prtner-img {
-  width: 60%;
+  width: calc(60% - 30px);
 }
 .find-prtner-img img {
   width: 100%;
@@ -232,6 +232,11 @@ h1 {
   border: 1px solid #222;
   color: #222;
   margin-top: 48px;
+}
+
+.find-partner-btn:hover {
+  background-color: lightgray;
+  cursor: pointer;
 }
 
 /* FEATURE SECTION */
