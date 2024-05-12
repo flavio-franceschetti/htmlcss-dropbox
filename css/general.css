@@ -77,12 +77,19 @@ a {
 .row {
   position: relative;
   display: flex;
-  gap: 30px;
   flex-wrap: wrap;
 }
 
 .w-33 {
   width: calc(100% / 3 - 20px);
+}
+
+.clean-w-33 {
+  width: calc(100% / 3);
+}
+
+.w-50 {
+  width: calc(100% / 2);
 }
 
 .btn {

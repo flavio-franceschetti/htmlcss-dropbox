@@ -118,6 +118,10 @@ h1 {
   /* min-height: 800px; */
 }
 
+.cards {
+  gap: 30px;
+}
+
 /* plan type */
 .plan-type {
   text-align: center;
@@ -214,6 +218,10 @@ h1 {
   padding-bottom: 170px;
 }
 
+.find-partner {
+  gap: 30px;
+}
+
 .find-prtner-img {
   width: calc(60% - 30px);
 }
@@ -240,6 +248,10 @@ h1 {
 }
 
 /* FEATURE SECTION */
+.features {
+  gap: 30px;
+}
+
 .feature-section {
   padding-bottom: 170px;
 }
