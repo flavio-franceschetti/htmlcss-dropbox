@@ -100,3 +100,10 @@ a {
   font-size: 36px;
   margin-bottom: 64px;
 }
+
+.lower-title {
+  display: block;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
