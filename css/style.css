@@ -267,3 +267,54 @@ h1 {
   text-decoration: underline;
   margin-bottom: 128px;
 }
+
+.clients {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.client {
+  height: 300px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client img {
+  width: 50%;
+  filter: brightness(0) invert(1);
+}
+
+/* clients */
+#designit {
+  background-color: #a3d49c;
+}
+
+#arizona_state_university {
+  background-color: #610227;
+}
+
+#university_of_florida {
+  background-color: #0094cf;
+}
+
+#topps {
+  background-color: #ff1616;
+}
+
+#world_bicycle_relief {
+  background-color: #d60019;
+}
+
+#hearst_corp {
+  background-color: #b5d1e8;
+}
+
+#lonely_planet {
+  background-color: #051f82;
+}
+
+#clear_channel {
+  background-color: #ffd92c;
+}
