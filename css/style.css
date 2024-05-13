@@ -84,9 +84,9 @@ h1 {
 }
 
 .hero-img img {
-  position: absolute;
+  /* position: absolute;
   bottom: -100;
-  right: 0;
+  right: 0; */
   width: 800px;
 }
 
