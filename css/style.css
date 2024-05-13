@@ -350,3 +350,19 @@ h1 {
   background-color: #fff;
   padding: 8px 32px;
 }
+
+/* FAQ SECTION */
+.faq-section {
+  padding: 170px 0;
+}
+
+.faq {
+  font-weight: 600;
+  padding: 48px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-chevron-down {
+  padding-right: 24px;
+}
