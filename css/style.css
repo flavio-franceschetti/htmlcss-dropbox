@@ -172,12 +172,6 @@ h1 {
   text-decoration: underline;
 }
 
-.short-line {
-  border-top: 1px solid lightgray;
-  width: 20%;
-  margin-bottom: 48px;
-}
-
 .last-card-btn {
   display: inline-block;
 }
@@ -261,6 +255,7 @@ h1 {
 }
 
 /* TESTIMONIAL SECTION */
+
 .testimonial-section a {
   display: inline-block;
   color: #0061ff;
@@ -284,6 +279,22 @@ h1 {
 .client img {
   width: 50%;
   filter: brightness(0) invert(1);
+}
+
+/* central section */
+.central {
+  padding: 48px;
+  background-color: #f5f5f5;
+}
+
+.client-logo {
+  width: 40%;
+  margin-bottom: 48px;
+}
+
+.testimonial-name {
+  display: inline-block;
+  margin-top: 48px;
 }
 
 /* clients */
