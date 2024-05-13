@@ -1,0 +1,436 @@
+/* HEADER */
+header {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  background-color: #fff;
+  border-bottom: 1px solid #22222256;
+}
+
+nav {
+  height: 100%;
+  padding: 0 20px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-list li {
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.hover-bottom-border:hover {
+  box-shadow: inset 0px -2px 0px #222222;
+}
+
+/* ----------------------------------- */
+/* MAIN */
+
+/* HERO SECTION */
+
+.hero-section {
+  background-color: #b4d0e7;
+  padding: 120px 0 20px 0;
+}
+
+.hero-container {
+  width: 65%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 74px;
+  margin-bottom: 64px;
+}
+
+/* hero content */
+
+.hero-content {
+  width: 30%;
+}
+
+.hero-content p {
+  margin-bottom: 24px;
+}
+
+.hero-content .btn {
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+.hero-content span {
+  display: inline-block;
+  margin-bottom: 64px;
+}
+
+.fa-arrow-down {
+  margin: 0;
+  display: block;
+  font-size: 52px;
+  color: #222;
+}
+
+.hero-img {
+  width: 70%;
+}
+
+.hero-img img {
+  width: 100%;
+}
+
+/* ------------------------------- */
+/* PRICING SECTION */
+
+.pricing-section {
+  padding: 170px 0;
+}
+
+.fa-circle-dot {
+  color: #0061ff;
+}
+
+.fa-circle {
+  color: rgba(34, 34, 34, 0.5);
+}
+
+.facturation-mode {
+  margin: 0 32px 32px 0;
+  display: inline-block;
+}
+
+/* card section */
+.card {
+  border: 1.8px solid lightgray;
+}
+
+.cards {
+  gap: 30px;
+}
+
+/* plan type */
+.plan-type {
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1.8px solid lightgray;
+}
+
+.plan-content {
+  padding: 35px 30px;
+}
+
+.plan-price {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.plan-content span:nth-child(3) {
+  display: inline-block;
+  color: rgb(132, 132, 132);
+  margin-bottom: 48px;
+}
+
+/* CARD PLAN LIST GENERAL */
+.plan-feature {
+  min-height: 170px;
+  margin-bottom: 32px;
+}
+
+.plan-list {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+  font-size: 14px;
+}
+
+.plan-list li {
+  position: relative;
+  margin-bottom: 24px;
+  padding-left: 20px;
+}
+
+.plan-list li:last-child {
+  margin-bottom: 0;
+}
+
+.plan-icon {
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+/* plan activate buttons */
+.free-try-btn {
+  margin-bottom: 20px;
+}
+
+.free-try-btn a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 12px;
+}
+
+.buy-now {
+  margin-bottom: 32px;
+}
+
+.buy-now a {
+  color: #0061ff;
+  text-decoration: underline;
+}
+
+/* plan hilights */
+.plan-hilights span:first-child {
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.fa-check {
+  color: #0061ff;
+}
+
+/* last card */
+.last-card {
+  margin-top: 40px;
+}
+
+.content-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.content-text {
+  width: 70%;
+}
+
+.content-text p {
+  margin-top: 64px;
+}
+
+/* FIND PARTNER SECTION */
+
+.find-partner-section {
+  padding-bottom: 170px;
+}
+
+.find-partner {
+  gap: 30px;
+}
+
+.find-prtner-img {
+  width: calc(60% - 30px);
+}
+.find-prtner-img img {
+  width: 100%;
+}
+
+.find-partner-text {
+  width: 40%;
+  margin-top: 80px;
+}
+
+.find-partner-btn {
+  display: inline-block;
+  background: none;
+  border: 1px solid #222;
+  color: #222;
+  margin-top: 48px;
+}
+
+.find-partner-btn:hover {
+  background-color: lightgray;
+}
+
+/* FEATURE SECTION */
+.features {
+  gap: 30px;
+}
+
+.feature-section {
+  padding-bottom: 170px;
+}
+
+.feature-img {
+  width: 100%;
+}
+
+/* TESTIMONIAL SECTION */
+
+.testimonial-section a {
+  display: inline-block;
+  color: #0061ff;
+  text-decoration: underline;
+  margin-bottom: 128px;
+}
+
+/* testimonial client section */
+.clients {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.client {
+  height: 300px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client img {
+  width: 50%;
+  filter: brightness(0) invert(1);
+}
+
+/* central section */
+.central {
+  padding: 48px;
+  background-color: #f5f5f5;
+}
+
+.client-logo {
+  width: 40%;
+  margin-bottom: 48px;
+}
+
+.testimonial-name {
+  display: inline-block;
+  margin-top: 48px;
+}
+
+/* clients */
+#designit {
+  background-color: #a3d49c;
+}
+
+#arizona_state_university {
+  background-color: #610227;
+}
+
+#university_of_florida {
+  background-color: #0094cf;
+}
+
+#topps {
+  background-color: #ff1616;
+}
+
+#world_bicycle_relief {
+  background-color: #d60019;
+}
+
+#hearst_corp {
+  background-color: #b5d1e8;
+}
+
+#lonely_planet {
+  background-color: #051f82;
+}
+
+#clear_channel {
+  background-color: #ffd92c;
+}
+
+/* CTA SECTION */
+.cta-section {
+  background-color: #b4d0e7;
+}
+
+.cta-content {
+  justify-content: space-between;
+  align-items: center;
+  padding: 128px 0;
+}
+
+.cta-title {
+  color: #5f1347;
+  margin: 0;
+  width: 50%;
+}
+
+.cta-btn {
+  background-color: #fff;
+  color: #222;
+  padding: 8px 32px;
+}
+
+.cta-btn:hover {
+  background-color: #ffffffd4;
+}
+
+/* FAQ SECTION */
+.faq-section {
+  padding: 170px 0;
+}
+
+.faq {
+  font-weight: 600;
+  padding: 48px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-chevron-down {
+  padding-right: 24px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #222;
+  padding: 64px 0 48px 0;
+}
+
+/* main footer */
+.main-footer {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 64px;
+}
+
+.footer-container {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.footer-list {
+  width: calc(100% / 5);
+  color: #fff;
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-list a {
+  color: #fff;
+}
+
+.footer-list a:hover {
+  text-decoration: underline;
+}
+
+/* secondary footer */
+.secondary-footer {
+  width: 150px;
+  padding: 48px 0;
+  border-top: 1px solid #fff;
+  color: rgba(211, 211, 211, 0.72);
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
