@@ -348,7 +348,12 @@ h1 {
 
 .cta-btn {
   background-color: #fff;
+  color: #222;
   padding: 8px 32px;
+}
+
+.cta-btn:hover {
+  background-color: #ffffffd4;
 }
 
 /* FAQ SECTION */
