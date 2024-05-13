@@ -6,9 +6,6 @@ header {
   z-index: 999;
   background-color: #fff;
   border-bottom: 1px solid #22222256;
-
-  /* debug */
-  /* background-color: lightcoral; */
 }
 
 nav {
@@ -28,20 +25,22 @@ nav {
 .nav-list li {
   display: flex;
   align-items: center;
+
+  cursor: pointer;
 }
 
-.bottom-border:hover {
-  box-shadow: inset 0px -2px 0px #2222229d;
+.hover-bottom-border:hover {
+  box-shadow: inset 0px -2px 0px #222222;
 }
 
 /* ----------------------------------- */
+/* MAIN */
+
 /* HERO SECTION */
 
 .hero-section {
   background-color: #b4d0e7;
   padding: 120px 0 20px 0;
-  /* debug */
-  min-height: 600px;
 }
 
 .hero-container {
@@ -57,12 +56,11 @@ h1 {
 /* hero content */
 
 .hero-content {
-  max-width: 350px;
+  width: 30%;
 }
 
 .hero-content p {
   margin-bottom: 24px;
-  font-weight: 300;
 }
 
 .hero-content .btn {
@@ -72,7 +70,6 @@ h1 {
 
 .hero-content span {
   display: inline-block;
-  font-weight: 300;
   margin-bottom: 64px;
 }
 
@@ -83,13 +80,15 @@ h1 {
   color: #222;
 }
 
-.hero-img img {
-  /* position: absolute;
-  bottom: -100;
-  right: 0; */
-  width: 800px;
+.hero-img {
+  width: 70%;
 }
 
+.hero-img img {
+  width: 100%;
+}
+
+/* ------------------------------- */
 /* PRICING SECTION */
 
 .pricing-section {
@@ -101,7 +100,7 @@ h1 {
 }
 
 .fa-circle {
-  color: #22222282;
+  color: rgba(34, 34, 34, 0.5);
 }
 
 .facturation-mode {
@@ -110,12 +109,8 @@ h1 {
 }
 
 /* card section */
-
 .card {
   border: 1.8px solid lightgray;
-  /* debug */
-  /* background-color: lightblue; */
-  /* min-height: 800px; */
 }
 
 .cards {
@@ -145,10 +140,33 @@ h1 {
   margin-bottom: 48px;
 }
 
-/* plan feature */
+/* CARD PLAN LIST GENERAL */
 .plan-feature {
   min-height: 170px;
   margin-bottom: 32px;
+}
+
+.plan-list {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+  font-size: 14px;
+}
+
+.plan-list li {
+  position: relative;
+  margin-bottom: 24px;
+  padding-left: 20px;
+}
+
+.plan-list li:last-child {
+  margin-bottom: 0;
+}
+
+.plan-icon {
+  position: absolute;
+  top: 2px;
+  left: 0;
 }
 
 /* plan activate buttons */
@@ -170,10 +188,6 @@ h1 {
 .buy-now a {
   color: #0061ff;
   text-decoration: underline;
-}
-
-.last-card-btn {
-  display: inline-block;
 }
 
 /* plan hilights */
@@ -202,8 +216,8 @@ h1 {
   width: 70%;
 }
 
-.plan-price {
-  margin-bottom: 64px;
+.content-text p {
+  margin-top: 64px;
 }
 
 /* FIND PARTNER SECTION */
@@ -262,6 +276,7 @@ h1 {
   margin-bottom: 128px;
 }
 
+/* testimonial client section */
 .clients {
   display: flex;
   flex-wrap: wrap;
@@ -402,6 +417,10 @@ footer {
 
 .footer-list a {
   color: #fff;
+}
+
+.footer-list a:hover {
+  text-decoration: underline;
 }
 
 /* secondary footer */
