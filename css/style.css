@@ -238,7 +238,6 @@ h1 {
 
 .find-partner-btn:hover {
   background-color: lightgray;
-  cursor: pointer;
 }
 
 /* FEATURE SECTION */
@@ -328,4 +327,26 @@ h1 {
 
 #clear_channel {
   background-color: #ffd92c;
+}
+
+/* CTA SECTION */
+.cta-section {
+  background-color: #b4d0e7;
+}
+
+.cta-content {
+  justify-content: space-between;
+  align-items: center;
+  padding: 128px 0;
+}
+
+.cta-title {
+  color: #5f1347;
+  margin: 0;
+  width: 50%;
+}
+
+.cta-btn {
+  background-color: #fff;
+  padding: 8px 32px;
 }
