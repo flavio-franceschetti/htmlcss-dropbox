@@ -377,15 +377,39 @@ h1 {
   padding: 170px 0;
 }
 
-.faq {
+.faq-flex {
   font-weight: 600;
   padding: 48px 0;
   display: flex;
   justify-content: space-between;
 }
 
-.fa-chevron-down {
+.fa-chevron-down,
+.fa-chevron-up {
   padding-right: 24px;
+}
+
+/* FAQ HOVER */
+.faq p {
+  display: none;
+  margin-bottom: 48px;
+  width: 85%;
+}
+
+.faq:hover p {
+  display: block;
+}
+
+.fa-chevron-up {
+  display: none;
+}
+
+.faq:hover .fa-chevron-up {
+  display: inline-block;
+}
+
+.faq:hover .fa-chevron-down {
+  display: none;
 }
 
 /* FOOTER */
