@@ -70,7 +70,6 @@ nav {
 .hero-section {
   background-color: #b4d0e7;
   padding: 120px 0 20px 0;
-  height: 85vh;
 }
 
 .hero-container {
@@ -80,7 +79,7 @@ nav {
 
 h1 {
   font-size: 74px;
-  margin-bottom: 64px;
+  /* margin-bottom: 64px; */
 }
 
 /* hero content */
@@ -111,11 +110,16 @@ h1 {
 }
 
 .hero-img {
-  width: 70%;
+  max-width: 70%;
 }
 
 .hero-img img {
   width: 100%;
+}
+
+.hero-container .row {
+  position: relative;
+  bottom: -90px;
 }
 
 /* ------------------------------- */
